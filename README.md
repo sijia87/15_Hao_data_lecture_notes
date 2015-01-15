@@ -9,12 +9,12 @@ Jan,15
 Markdown:
 ========
 Two types:
-Standard markdown
-Github flavor markdown
+1. Standard markdown
+2. Github flavor markdown
 
 What can be done with Markdown?
-Styling
-Word formatting
-Add images
-Create links
-Code blocks
+* Styling
+* Word formatting
+* Add images
+* Create links
+* Code blocks
