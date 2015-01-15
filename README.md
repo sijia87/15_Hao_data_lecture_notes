@@ -1,4 +1,5 @@
 # 15_Hao_data_lecture_notes
+*Task of this course: write a server in Jason, write a client in Jason*
 
 Data life cycle:
 Question -> collection -> clean up -> storage -> processing analysis -> query + visalize + act
@@ -27,9 +28,6 @@ Web browser -> Web server -> handeler
 
 .html: local file on disk
 
-Task of this course:
-
-write a server in Jason, write a client in Jason
 
 Restfall: representation, state, transfer (for REST)
 =========
@@ -47,6 +45,18 @@ For any users (URI, refer to some resources), we could apply html to it (i.e. ge
 * Put: update an existing history (git: update the {id})
 * Delete: destroy
 
+Query string: /search?a1=r1 + a2=r2 (limit: 1024 characters) 
 
+Example:
+========
+get 'api/1.0/whattimeisit'
+   "hellow word"
+end
+   
+curl http://localhost:3000/api/1.0/whattimeisit (typed in terminal to compile)
 
+get 'api/1.0/whattimeisit' do
+   {status: true, message: "hello world"}.to_json + "\n" (hash table)
+   {status: true, messge: Time.now}.to_json + "\n"
+end
 
