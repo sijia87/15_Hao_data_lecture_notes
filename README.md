@@ -65,3 +65,11 @@ get 'api/1.0/whattimeisit' do
    
 end
 
+Questions:
+* What's the database?
+* id?
+* What are the input, output (format client expecting)?
+* How to deal with errors?
+
+
+
