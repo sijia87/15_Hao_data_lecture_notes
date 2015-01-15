@@ -50,13 +50,18 @@ Query string: /search?a1=r1 + a2=r2 (limit: 1024 characters)
 Example:
 ========
 get 'api/1.0/whattimeisit'
+
    "hellow word"
+   
 end
    
 curl http://localhost:3000/api/1.0/whattimeisit (typed in terminal to compile)
 
 get 'api/1.0/whattimeisit' do
+
    {status: true, message: "hello world"}.to_json + "\n" (hash table)
+   
    {status: true, messge: Time.now}.to_json + "\n"
+   
 end
 
