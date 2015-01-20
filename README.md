@@ -94,5 +94,9 @@ Example Contacts Web service, Technology used:
 * Node: about Javascript
 * Express: on server side, handeling requests
 
+Display -> Hadoop, Hive -> NoSQL
+
+rspect --color test_client.rb
+
 
 
