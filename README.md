@@ -29,7 +29,7 @@ Web browser -> Web server -> handeler
 .html: local file on disk
 
 
-Restfall: representation, state, transfer (for REST)
+RESTful: representation, state, transfer (for REST)
 =========
 An architecture, serves based system to separate resource and resprentation language
 
@@ -70,6 +70,29 @@ Questions:
 * id?
 * What are the input, output (format client expecting)?
 * How to deal with errors?
+
+Jan,20,2015
+=============
+REST
+====
+Post - create; Get - read; Put - update; Delete - delete (CRUD)
+
+POST and PUT methods typically send data, also in JSON format, maybe in URL or in the body of the HTTP request
+
+ISSUES:
+======
+* Security: how do you authenticate users?
+* Identity: how are ids assigned to resources?
+* Failure: how do we handle failure situations?
+         JSON, HTTP Status Codes (404,500,etc.), combination of both
+* Persistence: how are resources stored? (Java stores things in memory; Ruby stores things in file)
+
+Example Contacts Web service, Technology used:
+* Sinatra
+* Rspec: testing
+* Typhoeus: Ruby library to do http request
+* Node: about Javascript
+* Express: on server side, handeling requests
 
 
 
