@@ -7,6 +7,7 @@ Question -> collection -> clean up -> storage -> processing analysis -> query + 
 Question -> curation (prioritisation), triage, persistance
 
 *Jan,15,2015*
+===========
 Markdown:
 ========
 Two types of Markdown:
@@ -100,6 +101,7 @@ rspect --color test_client.rb
 
 
 *Jan,22,2015*
+============
 Git: 
 =====
 * git branch: review the branches in the directory
