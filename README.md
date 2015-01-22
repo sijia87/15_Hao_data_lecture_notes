@@ -99,4 +99,47 @@ Display -> Hadoop, Hive -> NoSQL
 rspect --color test_client.rb
 
 
+*Jan,22,2015*
+Git: 
+=====
+* git branch: review the branches in the directory
+* git branch branch_name: create a new branch
+* git checkout commit: move the current state of your copy to a commit
+* git commit-m "Commit Message"
+* git merge branch_name: merges the named branch into the *current* branch
+* git pull [remote_repository] [branch_name]
+* git push [remote_repository]: push all the updted branches to their equivalent in the remote repository
+* log: gives a history of commits
+* remote: setup remote knowledge of remote respositories
+* diff: check differences between current commit and other commit
+* fetch: similiar to pull, get the changes but do not integrate
+* reset: move to the current head
+* mv: move a files location within a repository
+* rebase: rebase the branch, change master
+* branches are pointers.
+* conflicts: <<<<< conflicts ==== >>>>>> you have to fix the conflicts
+ 
+Github:
+=======
+* workflow: master -> branch -> pull request -> master
+* Github like branching more than rebasing: accurate history
+* git commit -m "fix bug ...": should write clear commit
+* open pull request: send pull request, to ask master to merge (tip: use "@mention")
+* fork: github specific, a fork is an exact copy of a repository, use it to run experiments without screwing things up, do not need authorization (difference from clone??)
+* branch: you must have collaborator access
+* discuss and review code
+* merge and deploy
+ 
+Contacts:
+========
+rackup -p 4000 ***.rb
+
+NODE_ENV ?
+
+rspec --color test_client.rb
+
+type "node" in terminal will enter javascript environment (node is a wapper arount javascript)
+
+server side: sinatra to develop web-application
+
 
